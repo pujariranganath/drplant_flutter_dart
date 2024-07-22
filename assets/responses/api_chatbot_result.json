@@ -1,0 +1,24 @@
+{
+    "statusCode": 200,
+    "body": {
+        "messages": [
+            {
+                "content": "Is this plant edible? And please suggest some biological treatments for fungi disease",
+                "type": "question",
+                "created": "2024-07-03T09:13:33.168Z"
+            },
+            {
+                "content": "The plant is not edible. For the fungi disease affecting your plant, some biological treatments you can consider include removing and destroying the infected parts of the plant, applying ecological products for plant protection such as neem oil or baking soda, and ensuring good soil drainage to avoid overwatering. Additionally, improving air circulation around the plant by pruning excess foliage or increasing spacing between plants can help prevent the spread of the fungal infection.",
+                "type": "answer",
+                "created": "2024-07-03T09:13:33.168Z"
+            }
+        ],
+        "identification": "An6RHjOcXdsrj7v",
+        "remaining_calls": 19,
+        "model_parameters": {
+            "model": "gpt-3.5-turbo",
+            "temperature": 0.5
+        },
+        "feedback": {}
+    }
+}

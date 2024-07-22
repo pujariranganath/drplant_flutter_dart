@@ -1,0 +1,99 @@
+{
+    "statusCode": 201,
+    "body": {
+        "access_token": "AxDT9RawIwfX3fT",
+        "model_version": "plant_id:3.0.0",
+        "custom_id": null,
+        "input": {
+            "images": [
+                "http://plant.id/media/imgs/e66a604ea1e74dfe881694c2193b0f7b.jpg"
+            ],
+            "datetime": "2023-06-22T11:28:20.401032+00:00",
+            "latitude": 49.207,
+            "longitude": 16.608,
+            "similar_images": true
+        },
+        "result": {
+            "is_plant": {
+                "binary": true,
+                "threshold": 0.5,
+                "probability": 0.98349506
+            },
+            "classification": {
+                "suggestions": [
+                    {
+                        "id": "urn:lsid:ipni.org:names:65769-1",
+                        "name": "Leucojum vernum",
+                        "source": "species",
+                        "probability": 0.9998884,
+                        "similar_images": [
+                            {
+                                "id": "587aeca4494253948c702d8356b4bebc2557a63d",
+                                "url": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/3/587/aeca4494253948c702d8356b4bebc2557a63d.jpg",
+                                "license_name": "CC0",
+                                "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                                "citation": "hen_ry",
+                                "similarity": 0.683,
+                                "url_small": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/3/587/aeca4494253948c702d8356b4bebc2557a63d.small.jpg"
+                            },
+                            {
+                                "id": "dffa4fc0912feefa1516df8c20c080286556269f",
+                                "url": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/3/dff/a4fc0912feefa1516df8c20c080286556269f.jpeg",
+                                "similarity": 0.543,
+                                "url_small": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/3/dff/a4fc0912feefa1516df8c20c080286556269f.small.jpeg"
+                            }
+                        ],
+                        "details": {
+                            "common_names": [
+                                "Spring Snowflake"
+                            ],
+                            "taxonomy": {
+                                "class": "Liliopsida",
+                                "genus": "Leucojum",
+                                "order": "Asparagales",
+                                "family": "Amaryllidaceae",
+                                "phylum": "Tracheophyta",
+                                "kingdom": "Plantae"
+                            },
+                            "url": "https://en.wikipedia.org/wiki/Leucojum_vernum",
+                            "gbif_id": 2860409,
+                            "inaturalist_id": 57510,
+                            "rank": "species",
+                            "description": {
+                                "value": "Leucojum vernum, called the spring snowflake, is a species of flowering plant in the family Amaryllidaceae. It is native to central and southern Europe from Belgium to Ukraine. It is considered naturalized in north-western Europe, including Great Britain and parts of Scandinavia, and in the US states of Georgia and Florida. This spring flowering bulbous herbaceous perennial is cultivated as an ornamental for a sunny position. The plant multiplies in favourable conditions to form clumps. Each plant bears a single white flower with greenish marks near the tip of the tepal, on a stem about 10–20 cm (3.9–7.9 in) tall, occasionally more.\nThe Latin specific epithet vernum means \"relating to Spring\". Its close relative, Leucojum aestivum, flowers in summer.",
+                                "citation": "https://en.wikipedia.org/wiki/Leucojum_vernum",
+                                "license_name": "CC BY-SA 3.0",
+                                "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+                            },
+                            "synonyms": [
+                                "Achyranthes carpathicum",
+                                "Erinosma verna",
+                                "Galanthus vernus",
+                                "Leucojum vernum subsp. carpathicum",
+                                "Leucojum vernum subsp. carpaticum",
+                                "Leucojum vernum subsp. vernum",
+                                "Leucojum vernum var. biflorum",
+                                "Nivaria verna"
+                            ],
+                            "image": {
+                                "value": "https://plant-id.ams3.cdn.digitaloceanspaces.com/knowledge_base/wikidata/d60/d603f30aac9292c673126a720eb7a48e01a9210e.jpg",
+                                "citation": "//commons.wikimedia.org/wiki/User:Smihael",
+                                "license_name": "CC BY-SA 3.0",
+                                "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+                            },
+                            "edible_parts": null,
+                            "language": "en",
+                            "entity_id": "urn:lsid:ipni.org:names:65769-1"
+                        }
+                    }
+                ]
+            }
+        },
+        "status": "COMPLETED",
+        "sla_compliant_client": true,
+        "sla_compliant_system": true,
+        "created": 1687433300.401032,
+        "completed": 1687433300.745973,
+        "url": "https://plant.id/api/v3/health_assessment?details=local_name,description,url,treatment,classification,common_names,cause"
+    }
+}
